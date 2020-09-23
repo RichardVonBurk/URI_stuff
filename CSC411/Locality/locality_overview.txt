@@ -1,0 +1,17 @@
+Two parallel tracks:
+
+1) Design and building track, implement blocked 2D arrays and polymorphic image rotation
+	-implement a standard technique for improving locality: blocking
+	-i.e. 10x10 organized into 4x4 bloacks
+	-Cells in same block are near each other in memory
+	-Mapping is done by blocks, not by rows and cols
+	-Mapping visits all cells in a block before next block
+	-not all cells in block are used
+	-implement bloacked arrays as described in the UArray2b.c
+	- The blocksize parameter to UArray2b_new counts the number of cells on one side of a block, so the actual number of cells in a
+	block is blocksize * blocksize. The number of bytes in a block is blocksize * blocksize * size. The blocksize parameter has no effect on semantics,
+	only on performance
+
+2) Experimental computer-science, predict the costs of image rotations and later measure them
+	-predictions based on knowledge of the cache as covere in chapter 6 of Bryant and O'Halloran
+
