@@ -1,0 +1,86 @@
+Javascript Notes.
+
+General
+
+	- ; ends a thought
+	
+	- // to right notes following slashes do not end notes with ;
+	
+	- caps DO matter
+	
+	- '*' are optional
+
+Environment
+
+	-width/height
+		
+		-Sets up size of the canvas
+
+Text
+
+	-text(text, x, y)
+	
+	-textFone
+
+Color
+
+-scale 0 to 255 for value
+
+
+	-stroke(r, g, b)
+
+		-outline color for shapes
+
+	-fill (red, green, blue)
+
+		-fills in the next thing that follows with desired color
+	
+	-noStroke( )
+		
+		-turns off outlines for shapes
+
+	-noFill( )
+		
+		-no fill for shapes
+	
+	
+	-background(red, green, blue)
+	
+	
+Shapes
+
+	-line(x1, y1, x2, y2)
+	
+	-point(x, y)
+	
+	-triangle(x1, y1, x2, y2, x3, y3)
+
+	-quad(x1, y1, x2, y2, x3, y3, x4, y4)
+
+	-rectangle(x, y, width, height)
+
+	-ellipse(x, y, width, height)
+
+	-image(imagename, x, y, width*, height*)
+		
+		
+
+Transformations
+
+	-translate(x, y)
+
+	-scale(amount)
+		
+		-does both dimensions
+	
+	-rotate(angle)
+
+		-degrees
+	
+
+Variables
+
+	-var then define name of varible right after
+		
+		- ex: var x = 10;
+

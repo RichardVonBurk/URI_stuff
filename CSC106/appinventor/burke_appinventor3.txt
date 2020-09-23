@@ -1,0 +1,11 @@
+Richard Burke
+CSC 106
+
+An app inventor list is a usage of the List Picker feature in User interface.
+It is a way to organize and combine a set of things that can list of just about any block, 
+in this case the texts blocks.
+I used the lists feature by listing places from my home town using text blocks.
+There was a correlating list that had the same amount of blocks that was a list of the Google.
+Maps URLs.
+Once the user picks a location from the list an activity starter selects the corresponding
+URL in the other list which then brings the User the Map location.
