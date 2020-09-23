@@ -1,0 +1,83 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Rich>cd Desktop
+
+C:\Users\Rich\Desktop>cd 440prog
+
+C:\Users\Rich\Desktop\440prog>driver.py --size 10
+Running cubic with input of size 10 ... done in 0.0 seconds
+Running quad1 with input of size 10 ... done in 0.0 seconds
+Running quad2 with input of size 10 ... done in 0.0 seconds
+Running divcon with input of size 10 ... done in 0.0 seconds
+Running linear with input of size 10 ... done in 0.0 seconds
+
+Algorithm                10
+cubic           0.00000000s
+quad1           0.00000000s
+quad2           0.00000000s
+divcon          0.00000000s
+linear          0.00000000s
+
+C:\Users\Rich\Desktop\440prog>driver.py --size 100
+Running cubic with input of size 100 ... done in 0.015625 seconds
+Running quad1 with input of size 100 ... done in 0.0 seconds
+Running quad2 with input of size 100 ... done in 0.0 seconds
+Running divcon with input of size 100 ... done in 0.0 seconds
+Running linear with input of size 100 ... done in 0.0 seconds
+
+Algorithm               100
+cubic           0.01562500s
+quad1           0.00000000s
+quad2           0.00000000s
+divcon          0.00000000s
+linear          0.00000000s
+
+C:\Users\Rich\Desktop\440prog>driver.py --size 1000
+Running cubic with input of size 1000 ... done in 11.09375 seconds
+Running quad1 with input of size 1000 ... done in 0.03125 seconds
+Running quad2 with input of size 1000 ... done in 0.0625 seconds
+Running divcon with input of size 1000 ... done in 0.0 seconds
+Running linear with input of size 1000 ... done in 0.0 seconds
+
+Algorithm              1000
+cubic           11.09375000s
+quad1           0.03125000s
+quad2           0.06250000s
+divcon          0.00000000s
+linear          0.00000000s
+
+C:\Users\Rich\Desktop\440prog>driver.py --run quad1 quad2 divcon linear --size 10000
+Running quad1 with input of size 10000 ... done in 3.375 seconds
+Running quad2 with input of size 10000 ... done in 6.328125 seconds
+Running divcon with input of size 10000 ... done in 0.015625 seconds
+Running linear with input of size 10000 ... done in 0.015625 seconds
+
+Algorithm             10000
+quad1           3.37500000s
+quad2           6.32812500s
+divcon          0.01562500s
+linear          0.01562500s
+
+C:\Users\Rich\Desktop\440prog>driver.py --run divcon linear --size 100000
+Running divcon with input of size 100000 ... done in 0.296875 seconds
+Running linear with input of size 100000 ... done in 0.015625 seconds
+
+Algorithm            100000
+divcon          0.29687500s
+linear          0.01562500s
+
+C:\Users\Rich\Desktop\440prog>driver.py --run divcon linear --size 1000000
+Running divcon with input of size 1000000 ... done in 3.078125 seconds
+Running linear with input of size 1000000 ... done in 0.078125 seconds
+
+Algorithm           1000000
+divcon          3.07812500s
+linear          0.07812500s
+
+C:\Users\Rich\Desktop\440prog>driver.py --run linear --size 10000000
+Running linear with input of size 10000000 ... done in 0.84375 seconds
+
+Algorithm          10000000
+linear          0.84375000s
+
