@@ -1,0 +1,52 @@
+<html>
+<title>
+Uninahes Studentenzimmer zu vermieten!
+</title>
+
+<body>
+
+<p align=right> Anmelden | English </p>
+<img align=center src="rot_bar.png" style="width: 100%; height: 25px;"> <br>
+<!--Source:www.tu-darmstadt.de/-->
+
+<img src="tud_logo_web_druck.png" align=right style="height: 200px;">
+<!--Source:www.tu-darmstadt.de/-->
+
+<img src="zimmer1.jpg" align=left style="width: 600px;  height: 600px;">
+<!--Source:www.wg-gesucht.de/wg-zimmer-in-Darmstadt-Darmstadt.2843136.html-->  
+
+190€ <br>
+18m² Zimmer in 7er WG  <br>
+7er WG (0 Frauen und 5 Männer)  <br>
+Bewohneralter: 19 bis 25 Jahre  <br>
+Rauchen auf dem Balkon erlaubt  <br>
+Studenten-WG, Männer-WG, keine Zweck-WG  <br>
+Sprache/n:  Deutsch <br><br>
+Prinz-Christians-Weg 4 <br>
+64287 Darmstadt Darmstadt <br><br>
+sanierter Altbau <br>
+1. OG, möbliert, teilmöbliert <br>
+Dusche <br>
+Analog, ISDN, Flatrate <br>
+DSL, Flatrate, WLAN schneller als 50 Mbit/s <br>
+Kabel <br>
+Laminat <br>
+Zentralheizung <br>
+gute Parkmöglichkeiten <br>
+5 Minuten zu Fuß entfernt <br>
+Waschmaschine, Spülmaschine, Terrasse, Balkon, Garten, Keller, Fahrradkeller <br><br><br>
+KONTAKTINFORMATIONEN: <br>
+Hans Müller <br>
+falschemail@email.com <br>
+
+
+<br><br><br><br><br><br><br>
+
+<img src="zimmer1_2.jpg" align=left style="width: 600px;  height: 600px;">
+<!--Source:www.wg-gesucht.de/wg-zimmer-in-Darmstadt-Darmstadt.2843136.html-->  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<img src="zimmer1_3.jpg" align=left style="width: 600px;  height: 600px;">
+<!--Source:www.wg-gesucht.de/wg-zimmer-in-Darmstadt-Darmstadt.2843136.html-->
+
+</body>
+</html>
