@@ -1,0 +1,78 @@
+Richard Burke
+11/16/18
+CSC 110 Programming Project Design
+
+Airline Flight Scheduling
+
+Project Description:
+-----------------------
+This program will take data from a file about flights from Providence to Orlando. 
+Then it will prompt the user for them to pick an option from a displayed list.
+After a task is completed, selected by the user, the options will be shown again until
+the user selects the quit option.
+
+General Solution:
+------------------
+The program will first take the data from the file and save what is read onto a map.
+Then the opened file will be closed.
+The program will then display options for the user and will wait for userinput.
+Once an option is selected the appropriate function to that option will be called.
+After that task is carried out then the list of options will appear again because it 
+will be in a loop that is broken out of only if the option to quit was selected.
+For every part that requires input the program will use exception handling.
+
+Psuedocode/Main
+----------------
+main():
+	extractData()
+	isQuit = false
+	while (isQuit == false):
+		displayOptions()
+		option = input("")
+		if (option == 1):
+			option1FuncCall
+		elif (option == 2):
+			option2FuncCall
+		....
+		....
+		elif (quitoption):
+			isQuit = true
+		else:
+			that option is not valid
+
+Function Design
+----------------
+extractData(fileName):
+	will read file and whiel reading will store info onto a map
+	return map
+
+displayOptions()
+	prints out options for user
+
+findFlight(Airliner, FlghtNum)
+	searches for flight that fits both criteria
+	return flightInfo
+
+findCheaper(price)
+	searches for every flight that is cheaper than price given
+	return cheaper
+
+calcDuration(depart, arrive)
+	calculates duration of a flight
+	return duration
+
+findBefore(time)
+	prints out each flight before specified time in 24hr system
+
+findAvg(Airliner)
+	calculates average cost of flights of given Airliner
+	return average
+
+sortByDepart()
+	using mergesort, sorts flights by departure time
+	prints out result
+
+
+
+		
+
